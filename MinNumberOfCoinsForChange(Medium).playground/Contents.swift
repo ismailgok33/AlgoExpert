@@ -1,5 +1,8 @@
 import UIKit
 
+// Solution-1
+// Time: O(nd) where n is the target number and d is the lenght of the denominations array
+// Space: O(n)
 func minimumNumberOfCoinsForChange(target: Int, denominations: [Int]) -> Int {
     
 //    var numberOfCoins = [Int](repeating: Int(Int16.max), count: target + 1)
