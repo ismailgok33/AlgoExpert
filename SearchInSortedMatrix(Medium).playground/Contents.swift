@@ -1,8 +1,8 @@
 import UIKit
 
 // Solution-1
-// Time:
-// Space:
+// Time: O(m + n) where m is the lenght of matrix and n is the max lenght of matrix[0]
+// Space: O(1)
 func searchInSortedMatrix(matrix: [[Int]], target: Int) -> [Int] {
     
     guard !matrix.isEmpty else { return [-1, -1] }
